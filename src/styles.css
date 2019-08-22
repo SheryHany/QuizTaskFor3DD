@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+/* body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ98lKYljxRKcZ-dv-hosZxpczaHFaJK7zVMeas4ywO9cO8vdW1w");
+    background-size: cover;
+    background-repeat: unset;
+} */
+.myForm{
+    margin-top: 32px;
+    border: 1px solid #c7c7c7;
+    padding: 20px;
+    border-radius: 5px;
+    width: 65rem;
+}
+.myForm-Btn{
+    margin-left: 16px;
+}
+.radioBtn{
+    margin-top: 26px !important;
+}
+
+.inputForm{
+    margin-top: -28px !important;
+}
+
+.multiChoise{
+    margin-top: 22px;
+}
+
+.textCard{
+    font-size: small;
+    color: gray;
+}
+
+.CardBtn{
+    margin-top: 17px;
+}
+.numOfQuesForm{
+    width: 58rem !important;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    margin-top: 32px;
+    padding: 20px;
+}
+.numOfQuesForm-lable{
+    margin-left: 10px;
+}

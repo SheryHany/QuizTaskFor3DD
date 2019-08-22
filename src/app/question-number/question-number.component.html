@@ -1,0 +1,19 @@
+<div class="container numOfQuesForm">
+    <form #f="ngForm" (ngSubmit)="onSelect(f,$event)">
+        <h4>How many Question?</h4>
+        <div class="form-check">
+            <input class="form-check-input position-static radioBtn" type="radio" name="blankRadio" id="blankRadio1" required value="3" aria-label="..." ngModel>
+            <label for="blankRadio1" class="numOfQuesForm-lable">3</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input position-static radioBtn" type="radio" name="blankRadio" id="blankRadio1" required value="5" aria-label="..." ngModel>
+            <label for="blankRadio1" class="numOfQuesForm-lable">5</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input position-static radioBtn" type="radio" name="blankRadio" id="blankRadio1" required value="10" aria-label="..." ngModel>
+            <label for="blankRadio1" class="numOfQuesForm-lable">10</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

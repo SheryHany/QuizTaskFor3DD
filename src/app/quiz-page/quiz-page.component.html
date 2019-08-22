@@ -1,0 +1,24 @@
+<div class="card text-center col-sm-7 myForm container">
+    <div class="card-body" *ngFor="let object of questions let i = index">
+        <h4 class="card-title">{{object.question}}</h4>
+        <p class="textCard">{{object.description}}</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+            <label class="form-check-label" for="exampleRadios1">
+                {{object.ans1}}
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                {{object.ans2}}
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+            <label class="form-check-label" for="exampleRadios3">
+                {{object.ans3}}
+            </label>
+        </div>
+    </div>
+</div>
