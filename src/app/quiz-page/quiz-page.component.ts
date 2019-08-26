@@ -9,7 +9,8 @@ import { QuizService } from '../_services/quiz.service';
 })
 export class QuizPageComponent implements OnInit {
   questions
-  constructor(private questionsServise:QuizService) { }
+  constructor(private questionsServise:QuizService) { 
+}
 
   ngOnInit() {
     this.questions=this.questionsServise.getAll();
